@@ -8,7 +8,7 @@ The app exposes API to:
 - Create, read, update, and delete (CRUD) students in the Postgres DB (students controller).
 - Add grades for students in different courses (students grades controller).
 - Upload a student's image to AWS S3.
-- Send SMS to all the students in the DB with a POST request that. The request creates a thread to handle sending the SMS to all the students (via [sms4free](https://www.sms4free.co.il/)).
+- Send SMS to all the students in the DB with a POST request. The request creates a thread to handle sending the SMS to all the students (via [sms4free](https://www.sms4free.co.il/)).
 - Send an email to a given address (via [SendGrid's API](https://app.sendgrid.com/guide/integrate/langs/java)).
 <br>
 Containerized with Docker, uploaded to Docker Hub, and deployed on an AWS EC2 instance using Docker.
